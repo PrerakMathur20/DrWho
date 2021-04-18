@@ -1,0 +1,46 @@
+<head>
+    <title>
+        Quiz | Doctor Who
+    </title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body onload="nextques()" id="container">
+    <div class="title">
+       <a href="../index.html"><img src="../img/logo.png" alt="logo" width="9%" height="15%"></a>
+    </div>
+    <div class="box">
+    <div class="container mt-sm-5 my-1" >
+        <div class="question ml-sm-5 pl-sm-5 pt-2">
+            <div class="py-2 h5"><b id = "ques">Q. which option best describes your job role?</b></div>
+            <br>
+            <br>
+            <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options"> 
+                <label class="options"><p id="op1">Small Business Owner or Employee</p> 
+                    <input type="radio" name="radio" id="op1b"> 
+                    <span class="checkmark"></span> 
+                </label> 
+                <label class="options"><p id="op2">Nonprofit Owner or Employee</p> 
+                    <input type="radio" name="radio" id="op2b"> 
+                    <span class="checkmark"></span> 
+                </label> 
+                <label class="options"><p id="op3">Journalist or Activist</p> 
+                    <input type="radio" name="radio" id="op3b"> 
+                    <span class="checkmark"></span> 
+                </label> 
+                <label class="options"><p id="op4">Other</p> 
+                    <input type="radio" name="radio" id="op4b"> 
+                    <span class="checkmark"></span> 
+                </label> </div>
+        </div>
+        <br>
+        <div class="abc2">
+            <div id="prev"> 
+                <button class="btn btn-primary" onclick="prevquestion()">Previous</button>
+                <button class="btn btn-success" onclick="nextques()">Next</button> 
+            </div>
+            <p style="margin: auto; font-weight: 600; text-align: center;" id="qno"></p>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="quiz.js"></script>
+</body>

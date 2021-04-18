@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="index.css">
+   <link rel="stylesheet" href="slideshow.css">
+   <link rel="stylesheet" href="sidebar.css">
+   <link rel="stylesheet" href="index2.css">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <style>
+      .mySlides {display:none;}
+   </style>
+
+    <title>DoctorWho</title>
+</head>
+<body>
+
+
+   <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="#" id="about" onclick="location.href='aboutus/about-us.html'; target='_blank'">About</a>
+      <a href="#" id="services" onclick="location.href='contactus/contact-us.html'; target='_blank'">Contact Us</a>
+      <a href="#" id="contact" onclick="location.href='confused(quiz)/quiz1.html'; target='_blank'">Take the Quiz </a>
+      <a href="#" id="client" onclick="location.href='https://github.com/PrerakMathur20/Hack-o-fiesta-21'; target='_blank'">Source</a>
+
+    </div>
+
+    
+    <div id="main">
+      <button class="openbtn" onclick="openNav()" id="sidbr"> ☰ Sidebar </button>  
+    </div>
+    
+    <div>
+      <img src="img/logo.png" alt="logo" class="logo">
+   </div>
+
+
+    <script src="sidebar.js"></script>
+
+    <div class="slideshowContainer">
+       <br><div class="text">
+      <h1>Welcome to DrWho!</h1>
+      <br>
+      <h3>This page is designed to help you understand</h3>
+      <h3>and either Amplify or Supress your Emotion</h3>
+      <h4>As per your choice</h4>
+      <br>
+      <h3>Also, Check out our Emotion Quiz from the SideBar or</h3>
+      <h4>Or choose "Confused" from our list of emotions</h4>
+      </div>
+        <img class="imageSlides" src="https://images.pexels.com/photos/954599/pexels-photo-954599.jpeg?cs=srgb&dl=pexels-maria-tyutina-954599.jpg&fm=jpg" width="90%" alt="beach side city view">
+        <img class="imageSlides" src="https://i.giphy.com/media/ZaRSVxMto9KqKihhZM/giphy.gif" alt="leaf on the ground" width="90%">
+        <img class="imageSlides" src="https://media.giphy.com/media/MWP0m6OswNIbl68Qbe/giphy.gif" alt="lake surrounded by mountains" width="90%">
+
+        <span id ="leftArrow" class="slideshowArrow">&#8249;</span>
+        <span id ="rightArrow" class="slideshowArrow">&#8250;</span>
+        
+        <div class="slideshowCircles">
+
+          <span class="circle dot"></span>
+          <span class="circle"></span>
+          <span class="circle"></span>
+        </div>
+        
+      </div>
+
+      
+
+<br><br><br><br>
+    <script src="slideshow.js"></script>
+   <a href="happy/happy.html" target=”_blank”>
+      <div class="flip">
+            <div class="front" style="background-image: url(img/happy.jpg)" id="happy">
+               <h1 class="text-shadow">FEELING GOOD</hi>
+            </div>
+          <div class="back">
+             <h2>Feeling Good</h2>
+             <p>Feeling Good! The best of all emotions! Click here to find out more or maybe just for some music too! :)</p>
+          </div>
+      </div>
+      </a>
+      &emsp;
+      <a href="bored/bored.html" target="_blank" >
+   <div class="flip">
+       <div class="front" style="background-image: url(img/sad.jpg)" id="sad" onclick="sad()">
+          <h1 class="text-shadow">BORED</hi>
+       </div>
+       <div class="back">
+          <h2>Bored</h2>
+          <p>Bored... In the house? XD <br> We've got a few surprises behind the slide, click to find out! ;) </p>
+       </div>
+   </div>
+   </a>
+   &emsp;
+   <a href="angry/angry.html" target=”_blank”>
+   <div class="flip">
+       <div class="front" style="background-image: url(img/angry.jpg)" id="angry" onclick="angry()">
+          <h1 class="text-shadow">ANGRY</hi>
+       </div>
+       <div class="back">
+          <h2>Angry</h2>
+          <p>ANGRY!! And probably wanna stay that way too (or not). Click here and calm or pump up your veins! NOW!</p>
+       </div>
+   </div>
+   </a>
+   <br><br>
+   <a href="anxious/anxious.html" target=”_blank”>
+   <div class="flip">
+       <div class="front" style="background-image: url(img/anxious.jpg)" id="anxious" onclick="anxious()">
+          <h1 class="text-shadow">ANXIOUS</hi>
+       </div>
+       <div class="back">
+          <h2>Anxious</h2>
+          <p>Umm...Hi! Ahhh.... Will you cilck here, or not. Its up to you. Do you wanna? Its fine if you don't. I would like it if you did... Its your choice. Do what you wish. Please click...</p>
+       </div>
+   </div>
+   </a>
+   &emsp;
+   <a href="sad/sad.html" target=”_blank”>
+   <div class="flip">
+       <div class="front" style="background-image: url(img/depressed.jpg)" id="depressed" onclick="depressed()">
+          <h1 class="text-shadow">SAD</hi>
+       </div>
+       <div class="back">
+          <h2>Depressed</h2>
+          <p>*sigh* Hey! Feeling blue? or no colors at all? Come here, You're not alone! :')</p>
+       </div>
+   </div>
+   </a>
+   &emsp;
+   <a href="confused(quiz)/quiz1.html" target=”_blank”>
+   <div class="flip">
+       <div class="front" style="background-image: url(img/help.jpeg)" id="help" onclick="help()">
+         <h1 class="text-shadow">CONFUSED</hi>
+       </div>
+       <div class="back">
+          <h2>Confused</h2>
+          <p>Can't find your emotion? Cant understand what you're feeling? This quiz can help you out! Don't worry, I'll take hardly a min! <br> Click here already!</p>
+       </div>
+   </div>
+   </
+   <script src="flip.js"></script>
+<br>
+<br>
+
+<div class="aboutus">
+   Thanks a lot for visiting our Website. <br>
+   We Hope you Liked it... <br>
+    We appreciate your intrest! <br>
+   If You're Looking for more Information about us, I recommend you that you Check out the SideBar, <br>
+   It will redirect you to your destined page. <br><br>
+   <h2>Thank You &#10084;&#65039; </h2>
+</div>
+<!---
+
+<h4>Vertical Flip</h4>
+<div class="flip flip-vertical">
+    <div class="front" style="background-image: url(https://images.pexels.com/photos/38136/pexels-photo-38136.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)">
+       <h1 class="text-shadow">FOREST</hi>
+    </div>
+    <div class="back">
+       <h2>Angular</h2>
+       <p>Good tools make application development quicker and easier to maintain than if you did everything by hand..</p>
+    </div>
+</div>
+<div class="flip flip-vertical">
+    <div class="front" style="background-image: url(https://images.pexels.com/photos/34950/pexels-photo.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)">
+       <h1 class="text-shadow">TRACK</hi>
+    </div>
+    <div class="back">
+       <h2>Angular</h2>
+       <p>Good tools make application development quicker and easier to maintain than if you did everything by hand..</p>
+    </div>
+</div>
+<div class="flip flip-vertical">
+    <div class="front" style="background-image: url(https://images.pexels.com/photos/34546/sunset-lake-landscape-summer.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)">
+       <h1 class="text-shadow">SWAMP</hi>
+    </div>
+    <div class="back">
+       <h2>Angular</h2>
+       <p>Good tools make application development quicker and easier to maintain than if you did everything by hand..</p>
+    </div>
+</div>
+
+-->
+
+</body>
+</html>
