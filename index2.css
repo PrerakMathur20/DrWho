@@ -55,7 +55,7 @@ body{
     margin: 50px 0 75px;
     width: 100%;
     height: 500px;
-    color: wheat;
+    color: #af8c8c;
     font-family: 'Zilla Slab Highlight', cursive;
   }
   
@@ -78,7 +78,7 @@ body{
   
   .slideshowArrow {
     font-size: 7em;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(238, 213, 213, 0.5);
     cursor: pointer;
     transition: opacity 0.2s ease-in-out;
   }
